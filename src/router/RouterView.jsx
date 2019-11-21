@@ -7,7 +7,7 @@ class RouterView extends React.Component{
     render(){
         const maparr=this.props.routes?this.props.routes:Map
         const defaultComp=<Route key={1} path="/" component={()=>{
-            return <Redirect to="/"></Redirect>
+            return <Redirect to="/html"></Redirect>
         }} exact></Route>
         return <Switch>
             {
